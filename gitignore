@@ -1,0 +1,17 @@
+# Secrets & session data — never commit these
+.env
+tls_cookies.json
+tls_config.json
+tls_monitor.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Playwright browser binaries
+/ms-playwright/
